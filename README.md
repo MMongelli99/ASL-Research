@@ -24,21 +24,56 @@ recorded **American Sign Language** gestures.
 
 <br>
 
+---
+
+<br>
+
+## Requirements
+
+To run the program, you require **[Python 3]**, <br>
+as well as a - to be processed - input **CSV** file.
+
+<br>
+
+---
+
+<br>
+
 ## Usage
 
-Command line args: 
+*The program is used in the command line.*
 
-    $ handfile.csv plot_mode
+```sh
+Plot.py <CSV File> <Mode>
+```
 
-    handfile.csv = the file containing the coordinates you would like to plot
-    
-    plot_mode = * (optional, set to 'line' by default)
-                * 'scatter' - plot the hand using a scatter plot, showing the joints as points 
-                * 'line' - plot the connections between the joints as lines
+<br>
 
-    Examples: $ python3 hand_plotter.py Work_Right.csv scatter
-              $ python3 hand_plotter.py Work_Right.csv line
-              $ python3 hand_plotter.py Work_Right.csv
+### Mode
+
+#### Line
+
+*This is the default used if no mode is specified.*
+
+Plot the connections between the joints as lines.
+
+```sh
+Plot.py <CSV File> line
+```
+
+<br>
+
+#### Scatter
+
+Plot the hand using a scatter plot, <br>
+showing the joints as points.
+
+```sh
+Plot.py <CSV File> scatter
+```
+
+<br>
+
 
 Notes:
     
@@ -87,3 +122,7 @@ Future Work:
     * Be able to plot points and lines at the same time
         * Will greatly improve the viewer's ability to interpret the signs
           being performed by the hand
+
+<!----------------------------------------------------------------------------->
+
+[Python 3]: https://www.python.org/downloads/
