@@ -74,25 +74,46 @@ Plot.py <CSV File> scatter
 
 <br>
 
+---
 
-Notes:
-    
-    In update_plot():
-        Notice that the title is set using a different technique for the scatter and line plots.
-        Scatter and line plots behave differently in MatPlotLib.
-        This is also why the ax.cla() (clear axes) function is present in the line plot
-        but not in the scatter plot.
-        Further research is needed to find if their is a way to implement
-        the plotting of these graphs in as similar a manner as possible.
+<br>
 
-    placement of plt.show():
-        Unfortunately, this has to come last.
-        While it is suboptimal for the user to have to wait
-        for the animation to render for saving before they
-        can view it in a popup window,
-        doing so corrupts the animation-saving process. 
-        There may be a solution to this,
-        but this can be solved in the future. 
+## Notes
+
+### update_plot()
+
+Notice that the title is set using a different <br>
+technique for the scatter and line plots.
+
+Scatter and line plots behave differently in **MatPlotLib**.
+
+
+This is also why the `ax.cla()` (clear axes) function <br>
+is present in the line plot but not in the scatter plot.
+
+Further research is needed to find if their is a way to <br>
+implement the plotting of these graphs in as similar <br>
+a manner as possible.
+
+<br>
+
+### placement of plt.show()
+
+Unfortunately, this has to come last.
+
+While it is suboptimal for the user to have to wait <br>
+for the animation to render for saving before they <br>
+can view it in a popup window, doing so corrupts <br>
+the animation-saving process.
+
+There may be a solution to this, but <br>
+this can be solved in the future. 
+
+<br>
+
+---
+
+<br>
 
 Future Work:
 
