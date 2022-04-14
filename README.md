@@ -7,15 +7,17 @@ hand_plotter.py Information
 
 Overview:
 
-    * This program is capable of plotting a hand figure in 3D based on
+    This program is capable of plotting a hand figure in 3D based on
     coordinates provided from a CSV file in the Mendely dataset of
     recorded American Sign Language gestures.
 
-Command line args: handfile.csv plot_mode
+Command line args: 
 
-    handfile.csv: * the file containing the coordinates you would like to plot
+    $ handfile.csv plot_mode
+
+    handfile.csv = the file containing the coordinates you would like to plot
     
-    plot_mode:  * (optional, set to 'line' by default)
+    plot_mode = * (optional, set to 'line' by default)
                 * 'scatter' - plot the hand using a scatter plot, showing the joints as points 
                 * 'line' - plot the connections between the joints as lines
 
