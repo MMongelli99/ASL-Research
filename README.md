@@ -38,13 +38,14 @@ To run the program, you require:
 
   - `pandas`
   - `numpy`
+  - `matplotlib`
 
   <br>
 
   Install them with:
 
   ```sh
-  pip install pandas numpy
+  pip install pandas numpy matplotlib
   ```
 
 <br>
