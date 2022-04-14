@@ -1,15 +1,30 @@
+
+# ASL - Research
+
+*American Sign Language Recognition*
+
+<br>
+
+```
 Michael Mongelli
 Dr. Salgian
 American Sign Language Recognition
 Apr 1 2020
+```
 
-hand_plotter.py Information
+<br>
 
-Overview:
+## Overview
 
-    This program is capable of plotting a hand figure in 3D based on
-    coordinates provided from a CSV file in the Mendely dataset of
-    recorded American Sign Language gestures.
+This program is capable of plotting a **3D Hand Figure** <br>
+based on coordinates provided by a **CSV** file.
+
+The CSV comes from the **Mendely Dataset** of <br>
+recorded **American Sign Language** gestures.
+
+<br>
+
+## Usage
 
 Command line args: 
 
