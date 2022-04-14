@@ -115,34 +115,43 @@ this can be solved in the future.
 
 <br>
 
-Future Work:
+## Future Work
 
-    * Be able to pass multiple csv files to the program to make creating
-      multiple animations at once less tedious
-        * It would be good to add more detail to the progress report
-          in this case
-        * The process of creating and saving the animaiton is currently
-          very slow, so a status report indicates if the animation is
-          10%...20%...etc until completion
-        * If the program is made able to convert multiple files to
-          animations at once, it would be good to show the user approximately
-          when the animations will be done rendering so they know how long
-          they will need to leave their terminal running
+- Be able to pass multiple csv files to the program to <br>
+  make creating multiple animations at once less tedious
 
-    * Make it possible to enable/disable the plot being shown
-        * If one simply wants to save several animations created from
-          their CSVs, they shouldn't have to see it all pop up in
-          multiple plot windows
+    * It would be good to add more detail <br>
+      to the progress report in this case
 
-    * Improve speed:
-        * Line mode is currently very slow, could be sped up by saving
-          all plot data so it doesnt have to be recalculated with each loop
-          of the animation
-        * There could be ways to speed up the process of the first loop as well
+    * The process of creating and saving the animation <br>
+      is currently very slow, so a status report indicates <br>
+      if the animation is `10%` ... `20%` ... etc until completion
 
-    * Be able to plot points and lines at the same time
-        * Will greatly improve the viewer's ability to interpret the signs
-          being performed by the hand
+    * If the program is made able to convert multiple files <br>
+      to animations at once, it would be good to show the <br>
+      user approximately when the animations will be done <br>
+      rendering so they know how long they will need to <br>
+      leave their terminal running
+
+- Make it possible to enable / disable the plot being shown
+
+    * If one simply wants to save several animations created <br>
+      from their CSVs, they shouldn't have to see it all pop up <br>
+      in multiple plot window
+
+- Improve speed
+
+    * Line mode is currently very slow, could be sped up by <br>
+      saving all plot data so it doesn't have to be recalculated <br>
+      with each loop of the animation
+
+    * There could be ways to speed up <br>
+      the process of the first loop as well
+
+- Be able to plot points and lines at the same time
+
+    * Will greatly improve the viewer's ability to <br>
+      interpret the signs being performed by hand
 
 <!----------------------------------------------------------------------------->
 
