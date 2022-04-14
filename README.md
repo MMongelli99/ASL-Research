@@ -30,8 +30,22 @@ recorded **American Sign Language** gestures.
 
 ## Requirements
 
-To run the program, you require **[Python 3]**, <br>
-as well as a - to be processed - input **CSV** file.
+To run the program, you require:
+
+- **[Python 3]**
+
+- Some modules:
+
+  - `pandas`
+  - `numpy`
+
+  <br>
+
+  Install them with:
+
+  ```sh
+  pip install pandas numpy
+  ```
 
 <br>
 
