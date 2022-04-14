@@ -1,5 +1,5 @@
 
-# ASL - Research
+# ASL - Research [![Badge License]][License]
 
 *American Sign Language Recognition*
 
@@ -171,3 +171,7 @@ this can be solved in the future.
 <!----------------------------------------------------------------------------->
 
 [Python 3]: https://www.python.org/downloads/
+
+[Badge License]: https://img.shields.io/badge/License-Unkown-darkgray?style=for-the-badge
+
+[License]: #
